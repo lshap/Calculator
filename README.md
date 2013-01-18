@@ -1,4 +1,2 @@
 Calculator
-==========
-
-Project 00 for CIS 195
+Lauren Shapiro
