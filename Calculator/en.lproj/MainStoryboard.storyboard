@@ -26,6 +26,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_7:" destination="2" eventType="touchUpInside" id="nsc-lt-kcn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2k-9J-zwk">
                                 <constraints>
@@ -39,6 +42,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_8:" destination="2" eventType="touchUpInside" id="4uT-XN-hhU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gal-SV-Mtp">
                                 <constraints>
@@ -52,6 +58,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_9:" destination="2" eventType="touchUpInside" id="VbK-bb-cdG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZx-LB-j6O">
                                 <constraints>
@@ -65,6 +74,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_1:" destination="2" eventType="touchUpInside" id="Lji-Th-Z5V"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWM-iI-c6Q">
                                 <constraints>
@@ -78,6 +90,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_0:" destination="2" eventType="touchUpInside" id="yer-e2-1KL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPW-BN-1PC">
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
@@ -88,6 +103,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_dec:" destination="2" eventType="touchUpInside" id="eDm-JV-3ab"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVo-AJ-9Zl">
                                 <constraints>
@@ -101,6 +119,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_pi:" destination="2" eventType="touchUpInside" id="YnX-9L-m6b"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIj-G8-4VC">
                                 <constraints>
@@ -114,19 +135,25 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_sqrt:" destination="2" eventType="touchUpInside" id="Ecb-i7-nvi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKb-HV-RqM">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="SpF-6k-UKp"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
-                                <state key="normal" image="EE.png">
+                                <state key="normal" image="exp.png">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_exp:" destination="2" eventType="touchUpInside" id="MX4-HO-7xv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gh9-uM-Set">
                                 <constraints>
@@ -140,6 +167,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_log:" destination="2" eventType="touchUpInside" id="13N-Ua-psG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boL-I0-XjZ">
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
@@ -150,6 +180,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_2:" destination="2" eventType="touchUpInside" id="zjk-4w-Ps2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWW-8y-Ucx">
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
@@ -160,6 +193,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_3:" destination="2" eventType="touchUpInside" id="CRL-ft-kAa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SId-Rz-uai">
                                 <constraints>
@@ -174,6 +210,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_eq:" destination="2" eventType="touchUpInside" id="xyA-gQ-nRb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X95-Na-kUd">
                                 <constraints>
@@ -187,6 +226,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_clr:" destination="2" eventType="touchUpInside" id="GVQ-ok-a9O"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ps-bg-nC0">
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
@@ -197,6 +239,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_6:" destination="2" eventType="touchUpInside" id="l5S-2r-zBI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNb-uw-4Rn">
                                 <constraints>
@@ -211,6 +256,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_times:" destination="2" eventType="touchUpInside" id="IRo-Bt-zSS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ge-hZ-IYK">
                                 <constraints>
@@ -224,6 +272,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_plus:" destination="2" eventType="touchUpInside" id="V8e-l4-FEN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDD-LX-KNR">
                                 <constraints>
@@ -237,6 +288,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_div:" destination="2" eventType="touchUpInside" id="K1s-Cv-8tR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9un-Ui-JD1">
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
@@ -247,6 +301,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_minus:" destination="2" eventType="touchUpInside" id="xpU-1u-Huk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gK1-0X-e0n">
                                 <constraints>
@@ -260,6 +317,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_4:" destination="2" eventType="touchUpInside" id="4xA-7n-cVr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hk8-gT-t52">
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
@@ -270,21 +330,24 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_5:" destination="2" eventType="touchUpInside" id="rBK-eB-sPx"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" background="output.png" translatesAutoresizingMaskIntoConstraints="NO" id="zhI-JV-A4B">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Al-cd-n7Q">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="65" id="lQw-7Y-Zki"/>
+                                    <constraint firstAttribute="height" constant="63" id="Xpg-WS-bk7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="35"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gal-SV-Mtp" firstAttribute="top" secondItem="e2k-9J-zwk" secondAttribute="top" type="default" id="0Vw-Nm-H6R"/>
                             <constraint firstItem="oKb-HV-RqM" firstAttribute="top" secondItem="dIj-G8-4VC" secondAttribute="top" type="default" id="0uz-OY-Fjc"/>
                             <constraint firstItem="gal-SV-Mtp" firstAttribute="leading" secondItem="KWW-8y-Ucx" secondAttribute="leading" type="user" id="1g7-dr-Jcf"/>
-                            <constraint firstAttribute="trailing" secondItem="zhI-JV-A4B" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="1xt-V8-kBb"/>
                             <constraint firstItem="TNb-uw-4Rn" firstAttribute="top" secondItem="HDD-LX-KNR" secondAttribute="top" type="default" id="24h-1L-P6m"/>
                             <constraint firstItem="hk8-gT-t52" firstAttribute="bottom" secondItem="gK1-0X-e0n" secondAttribute="bottom" type="user" id="382-I2-qKl"/>
                             <constraint firstItem="lPW-BN-1PC" firstAttribute="top" secondItem="JWM-iI-c6Q" secondAttribute="top" type="default" id="3Pj-cw-Qhg"/>
@@ -294,11 +357,13 @@
                             <constraint firstItem="hk8-gT-t52" firstAttribute="trailing" secondItem="lPW-BN-1PC" secondAttribute="trailing" type="user" id="5fM-dx-RyU"/>
                             <constraint firstItem="hk8-gT-t52" firstAttribute="bottom" secondItem="gK1-0X-e0n" secondAttribute="bottom" type="user" id="60D-cN-fmm"/>
                             <constraint firstAttribute="trailing" secondItem="HDD-LX-KNR" secondAttribute="trailing" constant="11" id="6v7-aE-wdt"/>
+                            <constraint firstAttribute="trailing" secondItem="5Al-cd-n7Q" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="8Gx-NN-y5d"/>
                             <constraint firstItem="boL-I0-XjZ" firstAttribute="leading" secondItem="lPW-BN-1PC" secondAttribute="leading" type="user" id="8YO-8Z-CUG"/>
                             <constraint firstItem="e2k-9J-zwk" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="75" id="9xG-Bx-BgU"/>
                             <constraint firstItem="X95-Na-kUd" firstAttribute="leading" secondItem="SId-Rz-uai" secondAttribute="leading" type="default" id="BMc-LU-xih"/>
                             <constraint firstItem="hk8-gT-t52" firstAttribute="leading" secondItem="lPW-BN-1PC" secondAttribute="leading" type="user" id="CDa-kB-VrA"/>
                             <constraint firstItem="gal-SV-Mtp" firstAttribute="centerX" secondItem="4ps-bg-nC0" secondAttribute="centerX" type="user" id="DK8-wa-c6M"/>
+                            <constraint firstItem="dIj-G8-4VC" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="126" id="EHi-cL-9RL"/>
                             <constraint firstItem="boL-I0-XjZ" firstAttribute="top" secondItem="sZx-LB-j6O" secondAttribute="top" type="default" id="EkA-C1-Y3F"/>
                             <constraint firstItem="sZx-LB-j6O" firstAttribute="bottom" secondItem="boL-I0-XjZ" secondAttribute="bottom" type="user" id="H6P-0F-sYj"/>
                             <constraint firstItem="Gh9-uM-Set" firstAttribute="top" secondItem="dIj-G8-4VC" secondAttribute="top" type="default" id="Jbw-7c-7i3"/>
@@ -309,7 +374,6 @@
                             <constraint firstItem="hk8-gT-t52" firstAttribute="trailing" secondItem="e2k-9J-zwk" secondAttribute="trailing" type="user" id="O5w-HR-TIG"/>
                             <constraint firstItem="hk8-gT-t52" firstAttribute="bottom" secondItem="4ps-bg-nC0" secondAttribute="bottom" type="user" id="Oez-II-w4S"/>
                             <constraint firstItem="gal-SV-Mtp" firstAttribute="leading" secondItem="4ps-bg-nC0" secondAttribute="leading" type="user" id="OsK-ej-Rdx"/>
-                            <constraint firstItem="zhI-JV-A4B" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="P6v-PL-TIg"/>
                             <constraint firstItem="e2k-9J-zwk" firstAttribute="top" secondItem="1fd-bW-z3o" secondAttribute="top" type="default" id="Psk-M0-47B"/>
                             <constraint firstItem="boL-I0-XjZ" firstAttribute="leading" secondItem="hk8-gT-t52" secondAttribute="leading" type="user" id="QtZ-Cc-SDF"/>
                             <constraint firstItem="TNb-uw-4Rn" firstAttribute="bottom" secondItem="HDD-LX-KNR" secondAttribute="bottom" type="default" id="R3p-uj-YU6"/>
@@ -318,10 +382,10 @@
                             <constraint firstItem="9un-Ui-JD1" firstAttribute="trailing" secondItem="HDD-LX-KNR" secondAttribute="trailing" type="default" id="TLn-2W-oQN"/>
                             <constraint firstItem="TNb-uw-4Rn" firstAttribute="top" secondItem="3" secondAttribute="top" constant="100" id="UVR-w7-kSg"/>
                             <constraint firstItem="boL-I0-XjZ" firstAttribute="leading" secondItem="e2k-9J-zwk" secondAttribute="leading" type="user" id="Uvf-WO-ZdC"/>
-                            <constraint firstItem="zhI-JV-A4B" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="VQu-6U-WKQ"/>
                             <constraint firstItem="SId-Rz-uai" firstAttribute="trailing" secondItem="9un-Ui-JD1" secondAttribute="trailing" type="default" id="WKJ-Li-DtH"/>
                             <constraint firstItem="sZx-LB-j6O" firstAttribute="leading" secondItem="JWM-iI-c6Q" secondAttribute="leading" type="user" id="WgZ-t1-Ksc"/>
                             <constraint firstItem="9un-Ui-JD1" firstAttribute="leading" secondItem="HDD-LX-KNR" secondAttribute="leading" type="default" id="Wy9-vO-y6J"/>
+                            <constraint firstItem="5Al-cd-n7Q" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="X41-Za-pTz"/>
                             <constraint firstItem="hVo-AJ-9Zl" firstAttribute="trailing" secondItem="JWM-iI-c6Q" secondAttribute="trailing" type="default" id="Xbm-P0-1Vo"/>
                             <constraint firstItem="gal-SV-Mtp" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="131" id="XdB-HF-4ye"/>
                             <constraint firstItem="gK1-0X-e0n" firstAttribute="leading" secondItem="sZx-LB-j6O" secondAttribute="leading" type="user" id="YVs-Qt-Mw2"/>
@@ -329,13 +393,13 @@
                             <constraint firstItem="SId-Rz-uai" firstAttribute="top" secondItem="3" secondAttribute="top" constant="224" id="ZWj-jl-Sfs"/>
                             <constraint firstItem="SId-Rz-uai" firstAttribute="leading" secondItem="2ge-hZ-IYK" secondAttribute="leading" type="default" id="be9-do-lfJ"/>
                             <constraint firstItem="oKb-HV-RqM" firstAttribute="leading" secondItem="lPW-BN-1PC" secondAttribute="leading" type="default" id="c0F-BM-T0a"/>
-                            <constraint firstItem="dIj-G8-4VC" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="126" id="dlg-5Y-0rw"/>
                             <constraint firstItem="X95-Na-kUd" firstAttribute="top" secondItem="SId-Rz-uai" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="dmo-mC-vEN"/>
                             <constraint firstItem="dIj-G8-4VC" firstAttribute="bottom" secondItem="hVo-AJ-9Zl" secondAttribute="bottom" type="user" id="dov-RW-Zk5"/>
                             <constraint firstItem="gal-SV-Mtp" firstAttribute="trailing" secondItem="4ps-bg-nC0" secondAttribute="trailing" type="user" id="eEo-HX-QSo"/>
                             <constraint firstItem="sZx-LB-j6O" firstAttribute="centerX" secondItem="1fd-bW-z3o" secondAttribute="centerX" type="user" id="eaW-ty-CBq"/>
                             <constraint firstItem="hk8-gT-t52" firstAttribute="bottom" secondItem="9un-Ui-JD1" secondAttribute="bottom" type="user" id="f8A-LB-vvJ"/>
                             <constraint firstItem="sZx-LB-j6O" firstAttribute="leading" secondItem="1fd-bW-z3o" secondAttribute="leading" type="user" id="fZc-OG-bT7"/>
+                            <constraint firstItem="5Al-cd-n7Q" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="fpl-vg-4Ia"/>
                             <constraint firstItem="e2k-9J-zwk" firstAttribute="bottom" secondItem="1fd-bW-z3o" secondAttribute="bottom" type="default" id="g8e-hO-2IH"/>
                             <constraint firstItem="X95-Na-kUd" firstAttribute="trailing" secondItem="SId-Rz-uai" secondAttribute="trailing" type="default" id="gTh-Xg-Iex"/>
                             <constraint firstItem="9un-Ui-JD1" firstAttribute="top" secondItem="2ge-hZ-IYK" secondAttribute="top" type="default" id="iRE-rY-dAx"/>
@@ -373,6 +437,9 @@
                             <constraint firstItem="hk8-gT-t52" firstAttribute="trailing" secondItem="boL-I0-XjZ" secondAttribute="trailing" type="user" id="zMC-es-5Yq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="display" destination="5Al-cd-n7Q" id="B6u-t5-tI1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -388,16 +455,15 @@
         <image name="6.png" width="58" height="58"/>
         <image name="8.png" width="58" height="58"/>
         <image name="9.png" width="58" height="58"/>
-        <image name="EE.png" width="47" height="47"/>
         <image name="add.png" width="58" height="58"/>
         <image name="calc.png" width="58" height="58"/>
         <image name="clr.png" width="109" height="59"/>
         <image name="decimal.png" width="58" height="58"/>
         <image name="div.png" width="58" height="58"/>
         <image name="eq.png" width="109" height="64"/>
+        <image name="exp.png" width="47" height="47"/>
         <image name="log.png" width="47" height="47"/>
         <image name="mult.png" width="58" height="58"/>
-        <image name="output.png" width="268" height="65"/>
         <image name="pi.png" width="47" height="49"/>
         <image name="sqrt.png" width="47" height="47"/>
         <image name="sub.png" width="58" height="58"/>
@@ -405,6 +471,9 @@
     <classes>
         <class className="LMSViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LMSViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="display" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
