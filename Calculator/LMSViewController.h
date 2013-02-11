@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LMSViewController : UIViewController
-
+ @property (weak, nonatomic) IBOutlet UILabel *display;
 @end

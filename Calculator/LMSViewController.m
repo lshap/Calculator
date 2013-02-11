@@ -13,8 +13,8 @@
 +(BOOL) is_Infix: (int) c;
 +(int) precedence: (int) operator;
 +(NSMutableArray*) applyOperator:(int) o args: (NSMutableArray*) a binary:(BOOL) b;
-+ (NSMutableArray*) parse_input:(NSString*)input;
-@property (weak, nonatomic) IBOutlet UILabel *display;
++ (NSMutableArray*) lex_input:(NSString*)input;
+
 @property BOOL pressed_eq;
 @end
 
@@ -295,7 +295,7 @@
      else if (isdigit(operator) || operator == '.' || operator == 'p') return -1;
  } 
 
-+ (NSMutableArray*) parse_input:(NSString*)input
++ (NSMutableArray*) lex_input:(NSString*)input
 {
     NSMutableArray* parsed_input = [[NSMutableArray alloc]init];;
     NSMutableString* newop = [[NSMutableString alloc] init];
@@ -370,11 +370,11 @@
 + (NSString*) evaluate:(NSString*)input
 {
     // parse operands from input
-    NSMutableArray* parsed_input = [LMSViewController parse_input:input];
+    NSMutableArray* parsed_input = [LMSViewController lex_input:input];
     NSMutableArray* operator_stack = [[NSMutableArray alloc]init];
     NSMutableArray* operand_stack = [[NSMutableArray alloc]init];
     for (int i = 0; i < [parsed_input count]; i++)
-    { 
+    {
         NSString* currstring = [parsed_input objectAtIndex:i];
         int currchar = [currstring characterAtIndex:0];
         
