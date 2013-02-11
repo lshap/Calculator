@@ -14,7 +14,7 @@
 +(int) precedence: (int) operator;
 +(NSMutableArray*) applyOperator:(int) o args: (NSMutableArray*) a binary:(BOOL) b;
 + (NSMutableArray*) parse_input:(NSString*)input;
-@property (strong, nonatomic) IBOutlet UILabel *display;
+@property (weak, nonatomic) IBOutlet UILabel *display;
 @property BOOL pressed_eq;
 @end
 
